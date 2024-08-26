@@ -1,0 +1,131 @@
+ 
+* {
+    padding: 0;
+    margin:0;
+}
+
+  *{
+        background-color: #F0EBE3;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+  }
+
+  .logo{
+        padding-top: 10px;
+        margin-left: 10px;
+        width: 10%;
+  }
+
+  main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+  }
+
+  .text-area {
+    border: none;
+    color: #7A1CAC;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  ::placeholder { color: #0A3871;}
+    .text-area:focus {
+        outline: none;
+
+    }
+.mensaje{
+    background: #FFC6C6;
+    background-image: url("/imagenes/bandera-chile.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #F0A8D0;
+    border: 2px solid #694F8E ;
+    border-radius: 24px;
+    color: white;
+    cursor: cell;
+    height: 67px;
+    width: 50%;
+}
+
+.btn-desencriptar{
+    background: #B60071;
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    padding-left: 20px;
+    position: absolute;
+    width: 20%;
+}
+.informacion {
+    color: #0A3871;
+    font-size: 1rem;
+}
+
+.footer{
+    color: #0A3871;
+    display: center;
+    background-color: #F7B5CA;
+
+}
+@media (min-width: 1300px){
+    .text-area{
+            padding: 10%;
+        }
+    .informacion{
+        flex-direction: column-reverse;
+    }
+    .btn-encriptar{
+        width: 50%;
+        height: auto;
+    }
+
+    .btn-desencriptar{
+        width: 50%;
+        height: auto;
+    }
+    .copiar{
+        width: 20%;
+        
+    }
+    .mensaje{
+        width: 20%;
+       
+    }
+}
